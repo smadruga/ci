@@ -1,0 +1,10 @@
+CRITICAL - 2021-12-27 16:10:01 --> syntax error, unexpected token "}", expecting ";"
+#0 /var/www/html/ci/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/ci/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/ci/system/CodeIgniter.php(789): class_exists()
+#4 /var/www/html/ci/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
