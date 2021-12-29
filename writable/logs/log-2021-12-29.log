@@ -1,0 +1,68 @@
+CRITICAL - 2021-12-29 17:07:35 --> syntax error, unexpected token "public", expecting end of file
+#0 /var/www/html/ci/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/ci/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/ci/system/Config/Factories.php(136): class_exists()
+#4 /var/www/html/ci/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /var/www/html/ci/system/Common.php(783): CodeIgniter\Config\Factories::__callStatic()
+#6 /var/www/html/ci/app/Controllers/News.php(12): model()
+#7 /var/www/html/ci/system/CodeIgniter.php(824): App\Controllers\News->index()
+#8 /var/www/html/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/ci/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2021-12-29 17:09:10 --> Call to undefined method App\Models\NewsModel::getNews
+#0 /var/www/html/ci/app/Controllers/News.php(15): CodeIgniter\Model->__call()
+#1 /var/www/html/ci/system/CodeIgniter.php(824): App\Controllers\News->index()
+#2 /var/www/html/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-12-29 17:09:29 --> syntax error, unexpected token "public", expecting end of file
+#0 /var/www/html/ci/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/ci/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/ci/system/Config/Factories.php(136): class_exists()
+#4 /var/www/html/ci/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /var/www/html/ci/system/Common.php(783): CodeIgniter\Config\Factories::__callStatic()
+#6 /var/www/html/ci/app/Controllers/News.php(12): model()
+#7 /var/www/html/ci/system/CodeIgniter.php(824): App\Controllers\News->index()
+#8 /var/www/html/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/ci/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2021-12-29 17:10:14 --> syntax error, unexpected token "public", expecting end of file
+#0 /var/www/html/ci/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/ci/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/ci/system/Config/Factories.php(136): class_exists()
+#4 /var/www/html/ci/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /var/www/html/ci/system/Common.php(783): CodeIgniter\Config\Factories::__callStatic()
+#6 /var/www/html/ci/app/Controllers/News.php(12): model()
+#7 /var/www/html/ci/system/CodeIgniter.php(824): App\Controllers\News->index()
+#8 /var/www/html/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/ci/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2021-12-29 17:10:24 --> Call to undefined method App\Models\NewsModel::getNews
+#0 /var/www/html/ci/app/Controllers/News.php(15): CodeIgniter\Model->__call()
+#1 /var/www/html/ci/system/CodeIgniter.php(824): App\Controllers\News->index()
+#2 /var/www/html/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-12-29 17:38:42 --> Invalid file: news/success.php
+#0 /var/www/html/ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/ci/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /var/www/html/ci/app/Controllers/News.php(55): view()
+#3 /var/www/html/ci/system/CodeIgniter.php(824): App\Controllers\News->create()
+#4 /var/www/html/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
